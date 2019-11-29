@@ -57,7 +57,6 @@ namespace UnitTestProject1
             int resultat = Int32.MinValue;
             int actual = engine.Division(val1, val2);
             Assert.AreEqual(resultat, actual);
-
         }
 
     }
