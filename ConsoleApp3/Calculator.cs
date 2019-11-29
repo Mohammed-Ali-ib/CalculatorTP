@@ -34,7 +34,7 @@ namespace ConsoleApp3
         public int Division(int val1, int val2)
         {
             int res;
-            if (val1 > 0)
+            if (val2 > 0)
             {
                 res= val1 /val2;
             }
