@@ -16,26 +16,27 @@ namespace ConsoleApp3
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int Addition(int a, int b)
+        public int Addition(int val1, int val2)
         {
-            return a+b;
+
+            return val1+val2;
         }
-        public int Substruction(int a, int b)
+        public int Substruction(int val1, int val2)
         {
-            return a-b;
+            return val1-val2;
         }
 
-        public int Multiplication(int a, int b)
+        public int Multiplication(int val1, int val2)
         {
-            return a*b;
+            return val1*val2;
         }
 
-        public int Division(int a, int b)
+        public int Division(int val1, int val2)
         {
             int res;
-            if (a > 0)
+            if (val1 > 0)
             {
-                res= a / b;
+                res= val1 /val2;
             }
             else
             {
