@@ -12,50 +12,50 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethodadd()
         {
-            int a = 1;
-            int b = 2;
+            int val1 = 1;
+            int val2 = 2;
             int expected = 3;
 
-            int actual = engine.Addition(a, b);
+            int actual = engine.Addition(val1, val2);
             Assert.AreEqual(expected, actual);
 
         }
         [TestMethod]
         public void TestMethodeSub()
         {
-            int a = 5;
-            int b = 4;
+            int val1 = 5;
+            int val2 = 4;
             int resultat = 1;
-            int actual = engine.Substruction(a, b);
+            int actual = engine.Substruction(val1, val2);
             Assert.AreEqual(resultat, actual);
         }
 
         [TestMethod]
         public void TEstMethodMul()
         {
-            int a = 5;
-            int b = 4;
+            int val1 = 5;
+            int val2 = 4;
             int resultat = 20;
-            int actual = engine.Multiplication(a, b);
+            int actual = engine.Multiplication(val1, val2);
             Assert.AreEqual(resultat, actual);
         }
         [TestMethod]
         public void TEstMethodDiv()
         {
-            int a = 20;
-            int b = 4;
+            int val1 = 20;
+            int val2 = 4;
             int resultat = 5;
-            int actual = engine.Division(a, b);
+            int actual = engine.Division(val1, val2);
             Assert.AreEqual(resultat, actual);
         }
 
         [TestMethod]
         public void TEstMethodDivbByZero()
         {
-            int a = 20;
-            int b = 0;
+            int val1 = 20;
+            int val2 = 0;
             int resultat = Int32.MinValue;
-            int actual = engine.Division(a, b);
+            int actual = engine.Division(val1, val2);
             Assert.AreEqual(resultat, actual);
 
         }
