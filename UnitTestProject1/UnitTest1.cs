@@ -16,7 +16,7 @@ namespace UnitTestProject1
             int b = 2;
             int expected = 3;
 
-            int actual = engine.add(a, b);
+            int actual = engine.Addition(a, b);
             Assert.AreEqual(expected, actual);
 
         }
@@ -26,7 +26,7 @@ namespace UnitTestProject1
             int a = 5;
             int b = 4;
             int resultat = 1;
-            int actual = engine.Sub(a, b);
+            int actual = engine.Substruction(a, b);
             Assert.AreEqual(resultat, actual);
         }
 
@@ -36,7 +36,7 @@ namespace UnitTestProject1
             int a = 5;
             int b = 4;
             int resultat = 20;
-            int actual = engine.Mul(a, b);
+            int actual = engine.Multiplication(a, b);
             Assert.AreEqual(resultat, actual);
         }
         [TestMethod]
@@ -45,7 +45,7 @@ namespace UnitTestProject1
             int a = 20;
             int b = 4;
             int resultat = 5;
-            int actual = engine.Div(a, b);
+            int actual = engine.Division(a, b);
             Assert.AreEqual(resultat, actual);
         }
 
@@ -55,7 +55,7 @@ namespace UnitTestProject1
             int a = 20;
             int b = 0;
             int resultat = Int32.MinValue;
-            int actual = engine.Div(a, b);
+            int actual = engine.Division(a, b);
             Assert.AreEqual(resultat, actual);
 
         }

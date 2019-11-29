@@ -8,10 +8,6 @@ namespace ConsoleApp3
 {
     public class Calculator
 
-     
-  
-
-
     {
 
         /// <summary>
@@ -20,7 +16,7 @@ namespace ConsoleApp3
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int addition(int a, int b)
+        public int Addition(int a, int b)
         {
             return a+b;
         }
